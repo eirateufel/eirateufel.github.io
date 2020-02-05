@@ -23,7 +23,7 @@
                         <input pattern="[А-Я][а-я]+$|[А-Я][а-я]+-[А-Я][а-я]+$" minlength="2" maxlength="20" class="form__input" type="text" name="name" placeholder="Имя" required />
                     </div>
                     <div class="form__field">
-                        <input pattern="[\w\.]+@[a-zA-Z]+\.[a-zA-Z]{2,}" class="form__input" type="email" name="email" placeholder="E-Mail" />
+                        <input pattern="[\w\.]+@[a-zA-Z]+(\.[a-zA-Z]+)+" class="form__input" type="email" name="email" placeholder="E-Mail" />
                         <span class="form__error">e-mail в формате: sega@yandex.ru</span>
                     </div>
                     <div class="form__field">
